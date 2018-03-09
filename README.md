@@ -16,3 +16,15 @@ Epson Inkjet Printer Driver (ESC/P-R) filter for CUPS.
 5. git add *
 
 6. git commit ...
+
+## Building
+
+    ./bootstrap
+
+    automake --add-missing
+
+    ./configure --prefix=/usr --with-cupsfilterdir=/usr/lib/cups/filter  --with-cupsppddir=/usr/share/ppd
+
+    make
+
+    make install
