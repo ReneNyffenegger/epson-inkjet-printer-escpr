@@ -28,3 +28,7 @@ Epson Inkjet Printer Driver (ESC/P-R) filter for CUPS.
     make
 
     make install
+
+## Configuring CUPS / Printer
+
+Go to http://localhost:631 and add/modify printer / select correct driver.
