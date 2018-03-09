@@ -3,7 +3,7 @@
 %define ver     1.6.18
 %define rel     1
 
-%define cupsfilterdir   /usr/lib/cups/filter
+%define cupsfilterdir   /usr/lib/cups/filter/
 %define cupsppddir      /usr/share/ppd
 
 Name: %{pkg}
